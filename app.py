@@ -2,7 +2,9 @@ import numpy as np
 import pickle
 import streamlit as st
 import pickle
-
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 
 #loaded_model = pickle.load(open('diabetic_model.sav', 'wb'))
 #pickle.dump(loaded_model,open('diabetic_model.sav', 'wb'))
