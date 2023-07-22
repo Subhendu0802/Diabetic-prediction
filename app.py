@@ -2,6 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 import pickle
+import sklearn
 
 #loaded_model = pickle.load(open('diabetic_model.sav', 'wb'))
 #pickle.dump(loaded_model,open('diabetic_model.sav', 'wb'))
