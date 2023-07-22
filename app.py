@@ -7,7 +7,7 @@ import pickle
 
 
 #loaded_model = pickle.load(open('diabetic_model.sav', 'wb'))
-#pickle.dump(loaded_model,open('diabetic_model.sav', 'wb'))
+pickle.dump(loaded_model,open('diabetic_model.sav', 'wb'))
 #filename='diabetic_model.sav'
 
 #joblib.dump(model, filename)
