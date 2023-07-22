@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 import pickle
 
-from sklearn.linear_model import LogisticRegression
+
 
 
 #loaded_model = pickle.load(open('diabetic_model.sav', 'wb'))
