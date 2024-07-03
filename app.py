@@ -30,11 +30,12 @@ def main():
     Pregnancies = st.number_input("Pregnancies")
     Glucose = st.number_input("Glucose")
     BloodPressure = st.number_input("BloodPressure")
+    SkinThickness= st.number_input("SkinThickness")
     Insulin =st.number_input("Insulin")
     BMI	 = st.number_input("BMI")
     DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction")
     Age = st.number_input("Age")
-    cell_name_list_as_int=  [Pregnancies, Glucose, BloodPressure, Insulin, BMI, DiabetesPedigreeFunction, Age]
+    cell_name_list_as_int=  [Pregnancies, Glucose, BloodPressure,SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]
     if st.button('Predict'):
         prediction = diabetic_prediction(cell_name_list_as_int)
         st.success(prediction)
